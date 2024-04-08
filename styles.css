@@ -194,6 +194,21 @@
 
 /* Quotes Section  */
 
+.quotes-section {
+  background-color: var(--purple-color);
+  padding: var(--section-padding);
+}
+
+.quotes-section img {
+  width: 125px;
+  height: 125px;
+}
+
+.carousel-item-content {
+  padding-right: 80px;
+  padding-left: 80px;
+}
+
 .quotes {
   height: 392px;
   background-color: var(--main-color);
