@@ -283,3 +283,17 @@ $(document).ready(function () {
     },
   });
 });
+
+//Quotes API for pricing page
+$(document).ready(function () {
+  $.ajax({
+    url: "https://smileschool-api.alx-tools.com/quotes",
+    method: "GET",
+    success: function (response) {
+      console.log(response);
+    },
+    error: function (error) {
+      console.error(error);
+    },
+  });
+});
