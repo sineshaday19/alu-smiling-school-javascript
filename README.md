@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # ALU Smiling School Javascript
 
 ## Description
